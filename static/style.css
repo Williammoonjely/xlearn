@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    height: 100vh;
+}
+.navy{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.navy div a{
+    text-decoration: none;
+}
+.navy div a h4{
+    color: white;
+}
+.navy div a h4:hover{
+    color: rgb(222, 222, 222);
+}
+#activ{
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    color: rgb(122, 104, 229);
+}
+#activ:hover{
+    background-color:rgb(222, 222, 222);
+}
+
+.righty{
+    justify-self:end;
+}
+
+.profile_image{
+    background-image: url('images/pro_pic.png');
+    background-size: cover;
+    height: 4rem;
+    width: 4rem;
+    border: 1rem;
+}
+
+.profile_image img{
+    height: 100%;
+    width: 100%;
+}
+

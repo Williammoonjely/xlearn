@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: gray;
+}
+.spot_text{
+    background: -webkit-linear-gradient(#7A68E5, #514598);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+.go_button{
+    
+    color:#7A68E5;
+    border-color: #7A68E5;
+    background: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+} 
+
+.go_button:hover{
+    color: white;
+    background-color: #7A68E5;
+  
+}

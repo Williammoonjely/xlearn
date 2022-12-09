@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+Dashboard
+{% endblock title %}
+
+{% block style %}
+
+{% endblock style %}
+
+
+
+
+{% block content %}
+<div class="container-fluid px-5 py-2">
+    <div class="row">
+        <div class="col-6">
+            <h3>
+                Statistics
+            </h3>
+        </div>
+        <div class="col d-flex justify-content-between">
+            <h3>Lesson in Progress</h3>
+            <div class="d-flex">
+                <div class="btn">
+                    <h3 class="color-secondary"><i class="fa-solid fa-circle-left "></i></h3>
+                </div>
+                <div class="btn">
+                    <h3 class="color-secondary"><i class="fa-solid fa-circle-right "></i></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 d-flex align-content-center">
+            <div class="row d-flex align-content-center">
+                <div class="col-3 m-2 p-3 bg-white rounded">
+                    <h2>2</h1>
+            
+                    <h5>Subjects completed</h5>
+                </div>
+                <div class="col-3 m-2 p-3 bg-white rounded">
+                    <h2>3</h2>
+                    
+                    <h5>Subjects in progress</h5>
+                </div>
+                <div class="col-5 m-2 p-3 bg-white rounded">
+                   <div class="row ">
+                        <div class="col-12 d-flex justify-content-between">
+                            <h5>6.5 Hours spend this week</h5>
+                        </div>
+                        <div class="col">
+                            <h1>chart</h1>
+                        </div>
+                    
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex align-middle">
+            <div class="row d-flex flex-wrap">
+                <div class="col-4 my-2 px-3 align-middle">
+                    <div class="p-3 bg-primary border rounded-3">
+                        <h4>
+                            lesson thumb nail 1
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-4 my-2 px-3 h-100">
+                    <div class="p-3 bg-info border rounded-3">
+                        <h4>
+                            lesson thumb nail 1
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-4 my-2 px-3 h-100 ">
+                    <div class="p-3 bg-secondary border rounded-3">
+                        <h4>
+                            lesson thumb nail 1
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row pt-5 border ">
+        <div class="col-6 overflow-scroll border">
+            <h4>
+                Your Course Name
+            </h4>
+            <div class="border rounded bg-secondary ">
+                <div class="progress" >
+                    <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+                  </div>
+                <h1 class="overflow-scroll">images</h1>
+                <h1>images</h1>
+                <h1>images</h1>
+                <h1>images</h1>
+                <h1>images</h1>
+                <h1>images</h1>
+                <h1>images</h1>
+                <h1>images</h1>
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
